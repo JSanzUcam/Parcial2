@@ -8,7 +8,7 @@ public class Empleados {
     }
 
     public void mostrarEmpleados() {
-        System.out.println("Lista de Empleados:");
+        System.out.println(Strings.EMPLOYEE_LIST_TITLE);
         for (Empleado empleado : lista) {
             System.out.println(empleado);
         }
