@@ -1,6 +1,16 @@
 import java.util.Scanner;
 
+/**
+ * Clase principal. Incluye el método main
+ */
 public class SistemaGestionEmpleados {
+    /**
+     * Método main. Crea un objeto de la clase Empleados y
+     * les sube el sueldo una cantidad calculada a partir 
+     * de un pocentaje indicado por el usuario
+     * 
+     * @param args - String[] - Parámetros del programa
+     */
     public static void main(String[] args) {
         Empleados empleados = new Empleados();
 
